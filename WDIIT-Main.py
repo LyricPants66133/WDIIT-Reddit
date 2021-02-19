@@ -8,7 +8,7 @@ reddit = praw.Reddit(client_id='',
                     user_agent='<Windows>:<WDIIT-Reddit>:<1> (by u/LyricPants66133)',
                     username='', password='')
 days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-months = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 sub = "WhatDayOfTheWeekIsIt"
 subreddit = reddit.subreddit(sub)
 print("initialized.")
